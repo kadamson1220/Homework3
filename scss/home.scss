@@ -1,0 +1,55 @@
+.homePage {
+  background-color: #fffaf3;
+  padding-bottom: 60px;
+
+  .homeHero {
+    height: 500px;
+    background-image: url("../images/akery1.avif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    .homeHeroText {
+      width: 100%;
+      padding: 45px 8%;
+      background-color: rgba(76, 47, 34, 0.65);
+      color: white;
+
+      h1 { font-size: 48px; }
+      p { font-size: 18px; }
+    }
+  }
+
+  .homeIntro {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 30px;
+    text-align: center;
+    color: #4c2f22;
+
+    h2 { font-size: 34px; }
+    p { font-size: 17px; line-height: 1.6; }
+  }
+
+  .homeFeature {
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f2dfc7;
+
+    img { width: 50%; height: 330px; object-fit: cover; }
+
+    .homeFeatureText {
+      width: 50%;
+      padding: 45px;
+      color: #4c2f22;
+
+      h2 { font-size: 30px; }
+      p { line-height: 1.6; }
+    }
+  }
+
+  .homeFeatureReverse { flex-direction: row-reverse; background-color: #ead0bd; }
+}

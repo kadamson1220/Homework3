@@ -1,0 +1,29 @@
+.servicesPage {
+  background-color: #fffaf3;
+  padding: 60px 30px;
+  color: #4c2f22;
+
+  .servicesHeading {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    text-align: center;
+
+    h1 { font-size: 42px; }
+    p { font-size: 17px; }
+  }
+
+  .serviceItem {
+    max-width: 950px;
+    margin: 0 auto 45px;
+    display: flex;
+    align-items: center;
+    background-color: #f2dfc7;
+
+    img { width: 50%; height: 300px; object-fit: cover; }
+    div { width: 50%; padding: 45px; }
+    h2 { font-size: 30px; }
+    p { line-height: 1.6; }
+  }
+
+  .serviceItemReverse { flex-direction: row-reverse; background-color: #ead0bd; }
+}

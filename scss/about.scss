@@ -1,0 +1,35 @@
+.aboutPage {
+  background-color: #fffaf3;
+  padding-bottom: 70px;
+  color: #4c2f22;
+
+  .aboutTop {
+    max-width: 1050px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+
+    img { width: 55%; height: 400px; object-fit: cover; }
+
+    .aboutTopText {
+      width: 45%;
+      padding: 50px;
+      background-color: #f2dfc7;
+
+      h1 { font-size: 40px; }
+      p { line-height: 1.7; }
+    }
+  }
+
+  .aboutStory {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    div { width: 55%; padding: 35px; }
+    img { width: 45%; height: 300px; object-fit: cover; }
+    h2 { font-size: 30px; }
+    p { line-height: 1.7; }
+  }
+}

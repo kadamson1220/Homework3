@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+header {
+  height: 60px;
+  background-color: #4c2f22;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.homePage {
+  background-color: #fffaf3;
+  padding-bottom: 60px;
+}
+.homePage .homeHero {
+  height: 500px;
+  background-image: url("../images/akery1.avif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.homePage .homeHero .homeHeroText {
+  width: 100%;
+  padding: 45px 8%;
+  background-color: rgba(76, 47, 34, 0.65);
+  color: white;
+}
+.homePage .homeHero .homeHeroText h1 {
+  font-size: 48px;
+}
+.homePage .homeHero .homeHeroText p {
+  font-size: 18px;
+}
+.homePage .homeIntro {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 30px;
+  text-align: center;
+  color: #4c2f22;
+}
+.homePage .homeIntro h2 {
+  font-size: 34px;
+}
+.homePage .homeIntro p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+.homePage .homeFeature {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  display: flex;
+  align-items: center;
+  background-color: #f2dfc7;
+}
+.homePage .homeFeature img {
+  width: 50%;
+  height: 330px;
+  object-fit: cover;
+}
+.homePage .homeFeature .homeFeatureText {
+  width: 50%;
+  padding: 45px;
+  color: #4c2f22;
+}
+.homePage .homeFeature .homeFeatureText h2 {
+  font-size: 30px;
+}
+.homePage .homeFeature .homeFeatureText p {
+  line-height: 1.6;
+}
+.homePage .homeFeatureReverse {
+  flex-direction: row-reverse;
+  background-color: #ead0bd;
+}
+
+.aboutPage {
+  background-color: #fffaf3;
+  padding-bottom: 70px;
+  color: #4c2f22;
+}
+.aboutPage .aboutTop {
+  max-width: 1050px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+}
+.aboutPage .aboutTop img {
+  width: 55%;
+  height: 400px;
+  object-fit: cover;
+}
+.aboutPage .aboutTop .aboutTopText {
+  width: 45%;
+  padding: 50px;
+  background-color: #f2dfc7;
+}
+.aboutPage .aboutTop .aboutTopText h1 {
+  font-size: 40px;
+}
+.aboutPage .aboutTop .aboutTopText p {
+  line-height: 1.7;
+}
+.aboutPage .aboutStory {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.aboutPage .aboutStory div {
+  width: 55%;
+  padding: 35px;
+}
+.aboutPage .aboutStory img {
+  width: 45%;
+  height: 300px;
+  object-fit: cover;
+}
+.aboutPage .aboutStory h2 {
+  font-size: 30px;
+}
+.aboutPage .aboutStory p {
+  line-height: 1.7;
+}
+
+.servicesPage {
+  background-color: #fffaf3;
+  padding: 60px 30px;
+  color: #4c2f22;
+}
+.servicesPage .servicesHeading {
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+.servicesPage .servicesHeading h1 {
+  font-size: 42px;
+}
+.servicesPage .servicesHeading p {
+  font-size: 17px;
+}
+.servicesPage .serviceItem {
+  max-width: 950px;
+  margin: 0 auto 45px;
+  display: flex;
+  align-items: center;
+  background-color: #f2dfc7;
+}
+.servicesPage .serviceItem img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}
+.servicesPage .serviceItem div {
+  width: 50%;
+  padding: 45px;
+}
+.servicesPage .serviceItem h2 {
+  font-size: 30px;
+}
+.servicesPage .serviceItem p {
+  line-height: 1.6;
+}
+.servicesPage .serviceItemReverse {
+  flex-direction: row-reverse;
+  background-color: #ead0bd;
+}
+
+.contactPage {
+  background-color: #fffaf3;
+  padding: 60px 30px 80px;
+  color: #4c2f22;
+}
+.contactPage .contactHeading {
+  max-width: 1000px;
+  margin: 0 auto 55px;
+  display: flex;
+  align-items: center;
+  background-color: #f2dfc7;
+}
+.contactPage .contactHeading div {
+  width: 50%;
+  padding: 50px;
+}
+.contactPage .contactHeading img {
+  width: 50%;
+  height: 340px;
+  object-fit: cover;
+}
+.contactPage .contactHeading h1 {
+  font-size: 40px;
+}
+.contactPage .contactHeading p {
+  line-height: 1.6;
+}
+.contactPage .contactContent {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+}
+.contactPage .contactContent .contactInfo {
+  width: 40%;
+}
+.contactPage .contactContent .contactInfo p {
+  line-height: 1.7;
+}
+.contactPage .contactContent .contactForm {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contactPage .contactContent .contactForm input, .contactPage .contactContent .contactForm textarea {
+  padding: 12px;
+  border: 1px solid #9d7b66;
+  font-size: 15px;
+}
+.contactPage .contactContent .contactForm textarea {
+  height: 130px;
+}
+.contactPage .contactContent .contactForm button {
+  width: 150px;
+  padding: 12px;
+  border: none;
+  background-color: #7a4e37;
+  color: white;
+}
+
+.faqPage {
+  background-color: #fffaf3;
+  padding-bottom: 70px;
+  color: #4c2f22;
+}
+.faqPage .faqHeading {
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  background-color: #ead0bd;
+}
+.faqPage .faqHeading img {
+  width: 50%;
+  height: 340px;
+  object-fit: cover;
+}
+.faqPage .faqHeading div {
+  width: 50%;
+  padding: 45px;
+}
+.faqPage .faqHeading h1 {
+  font-size: 38px;
+}
+.faqPage .faqHeading p {
+  line-height: 1.6;
+}
+.faqPage .faqContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.faqPage .faqContent h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #7a4e37;
+}
+.faqPage .faqContent p {
+  line-height: 1.7;
+}
