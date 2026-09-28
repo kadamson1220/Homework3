@@ -40,8 +40,8 @@ Each page contains text and images related to the bakery.
 
 ## Web 4 Link
 
-[View the website on Web 4](PUT-YOUR-WEB-4-LINK-HERE)
+https://in-info-web4.luddy.indianapolis.iu.edu/~kaadamso/newm315AdvWebDev/Homework3/#home
 
 ## GitHub Link
 
-[View the project on GitHub](PUT-YOUR-GITHUB-LINK-HERE)
+https://github.com/kadamson1220/Homework3
